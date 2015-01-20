@@ -85,5 +85,5 @@ module.exports = function(grunt) {
     }
 
     grunt.registerTask("dev", ["connect", "watch"]);
-    grunt.registerTask("test", ["connect", "saucelabs-jasmine", "saucelabs-qunit", "saucelabs-mocha", "saucelabs-yui"]);
+    grunt.registerTask("test", ["connect", "saucelabs-jasmine"]); //, "saucelabs-qunit", "saucelabs-mocha", "saucelabs-yui"]);
 };
